@@ -17,14 +17,15 @@
 <meta property="og:url" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/index.html">
 <meta property="og:site_name" content="KANE blog">
 <meta property="og:description" content="title: Note ISO OSIOSI分层模型tips: ISO：国际标准化组织（International Organization for Standardization）  OSI：开放系统互联（Open System Interconnection）   分层优点： 促进标准化工作,允许各个供应商进行开发.  各层间相互独立,把网络操作分成低复杂性单元.  灵活性好,某一层变化不会">
-<meta property="og:image" content="http://kane1227.github.io/数据传输过程.png">
-<meta property="og:image" content="http://kane1227.github.io/解封装.png">
-<meta property="og:image" content="http://kane1227.github.io/MAC子层802.3.png">
-<meta property="og:updated_time" content="2017-07-21T17:34:24.871Z">
+<meta property="og:image" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/img/封装过程.png">
+<meta property="og:image" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/img/数据传输过程.png">
+<meta property="og:image" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/img/解封装.png">
+<meta property="og:image" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/img/MAC子层802.3.png">
+<meta property="og:updated_time" content="2017-07-21T17:59:44.489Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="KANE blog">
 <meta name="twitter:description" content="title: Note ISO OSIOSI分层模型tips: ISO：国际标准化组织（International Organization for Standardization）  OSI：开放系统互联（Open System Interconnection）   分层优点： 促进标准化工作,允许各个供应商进行开发.  各层间相互独立,把网络操作分成低复杂性单元.  灵活性好,某一层变化不会">
-<meta name="twitter:image" content="http://kane1227.github.io/数据传输过程.png">
+<meta name="twitter:image" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/img/封装过程.png">
 
     
     <link rel="alternative" href="/atom.xml" title="KANE blog" type="application/atom+xml">
@@ -164,13 +165,12 @@
 ------------|----------------------------------------
 物理层        |    【MAC头】+LLC+IP+TCP+上层数据+【FCS】
             |    0101110101001000010
-</code></pre><pre><code>封装过程
-![封装过程](/封装过程.png)
-</code></pre><blockquote>
+</code></pre><p>封装过程<br><img src="./img/封装过程.png" alt="封装过程"></p>
+<blockquote>
 <p>FCS：包含循环冗余校验值<br>收到值之后对端会进行计算，若值相同，则说明数据没有被篡改，说明数据可信任；<br>当值不同时，数据被丢弃。<br>数据链路层错误发现功能（只能发现但不能改正）</p>
 </blockquote>
-<p>数据传输过程<br><img src="/数据传输过程.png" alt="数据传输过程"></p>
-<p>解封装：上述的逆向过程<br><img src="/解封装.png" alt="解封装"></p>
+<p>数据传输过程<br><img src="./img/数据传输过程.png" alt="数据传输过程"></p>
+<p>解封装：上述的逆向过程<br><img src="./img/解封装.png" alt="解封装"></p>
 <hr>
 <h3 id="物理层设备"><a href="#物理层设备" class="headerlink" title="物理层设备"></a>物理层设备</h3><h4 id="集线器："><a href="#集线器：" class="headerlink" title="集线器："></a>集线器：</h4><ul>
 <li>所有设备在同一冲突域</li>
@@ -226,7 +226,7 @@
 <ul>
 <li>数据链路层功能</li>
 </ul>
-<p><img src="/MAC子层802.3.png" alt=""></p>
+<p><img src="./img/MAC子层802.3.png" alt=""></p>
 <p>目标地址</p>
 <h2 id="总结表"><a href="#总结表" class="headerlink" title="总结表"></a>总结表</h2><pre><code>设备    |    PDU    |        层        |        说明        |    代表协议        |        功能
 --------|------------|--------------|---------------------|-----------------|---------
