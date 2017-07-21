@@ -1,150 +1,49 @@
-
- <!DOCTYPE HTML>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>KANE blog</title>
+  <subtitle>Stay hungry, stay foolish!</subtitle>
+  <link href="/atom.xml" rel="self"/>
   
-    <title>KANE blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <link href="http://kane1227.github.io/"/>
+  <updated>2017-07-21T18:55:30.720Z</updated>
+  <id>http://kane1227.github.io/</id>
+  
+  <author>
+    <name>Kane Lee</name>
+    <email>qw1095779665@qq.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://kane1227.github.io/2017/07/22/UnitywebGL/"/>
+    <id>http://kane1227.github.io/2017/07/22/UnitywebGL/</id>
+    <published>2017-07-21T18:54:08.201Z</published>
+    <updated>2017-07-21T18:55:30.720Z</updated>
     
-    <meta name="author" content="Kane Lee">
-    
-
-    
-    <meta property="og:type" content="website">
-<meta property="og:title" content="KANE blog">
-<meta property="og:url" content="http://kane1227.github.io/index.html">
-<meta property="og:site_name" content="KANE blog">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="KANE blog">
-
-    
-    <link rel="alternative" href="/atom.xml" title="KANE blog" type="application/atom+xml">
-    
-    
-    <link rel="icon" href="/img/favicon2.ico">
-    
-    
-    <link rel="apple-touch-icon" href="/img/jacman2.jpg">
-    <link rel="apple-touch-icon-precomposed" href="/img/jacman2.jpg">
-    
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-
-  <body>
-    <header>
-      
-<div>
-		
-			<div id="imglogo">
-				<a href="/"><img src="/img/logo2.png" alt="KANE blog" title="KANE blog"/></a>
-			</div>
-			
-			<div id="textlogo">
-				<h1 class="site-name"><a href="/" title="KANE blog">KANE blog</a></h1>
-				<h2 class="blog-motto">Stay hungry, stay foolish!</h2>
-			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
-			</a></div>
-			<nav class="animated">
-				<ul>
-					<ul>
-					 
-						<li><a href="/">Home</a></li>
-					
-						<li><a href="/index">Index</a></li>
-					
-						<li><a href="/archives">Archives</a></li>
-					
-						<li><a href="/about">About</a></li>
-					
-					<li>
- 					
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
-						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
-						<input type="hidden" name="q" value="site:kane1227.github.io">
-					</form>
-					
-					</li>
-				</ul>
-			</nav>			
-</div>
-    </header>
-    <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/07/22/UnitywebGL/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-07-21T18:54:08.201Z" itemprop="datePublished"> 发表于 2017-07-22</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
+    <content type="html"><![CDATA[<hr>
 <h2 id="title-UnityWebGL"><a href="#title-UnityWebGL" class="headerlink" title="title:UnityWebGL"></a>title:UnityWebGL</h2><p><a href="http://kane1227.cn/Unity3D_SpaceShooter/" target="_blank" rel="external">SpaceShooter</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+]]></content>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+    <summary type="html">
     
-      <a href="/2017/07/22/Note_ISO_OSI/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-07-21T16:51:29.656Z" itemprop="datePublished"> 发表于 2017-07-22</time>
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-UnityWebGL&quot;&gt;&lt;a href=&quot;#title-UnityWebGL&quot; class=&quot;headerlink&quot; title=&quot;title:UnityWebGL&quot;&gt;&lt;/a&gt;title:UnityWebGL&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;
     
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/"/>
+    <id>http://kane1227.github.io/2017/07/22/Note_ISO_OSI/</id>
+    <published>2017-07-21T16:51:29.656Z</published>
+    <updated>2017-07-21T17:59:44.489Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
 <h2 id="title-Note-ISO-OSI"><a href="#title-Note-ISO-OSI" class="headerlink" title="title: Note ISO OSI"></a>title: Note ISO OSI</h2><h2 id="OSI分层模型"><a href="#OSI分层模型" class="headerlink" title="OSI分层模型"></a>OSI分层模型</h2><h4 id="tips"><a href="#tips" class="headerlink" title="tips:"></a>tips:</h4><ul>
 <li><p>ISO：国际标准化组织（International Organization for Standardization）</p>
 </li>
@@ -274,56 +173,26 @@
 路由器    |    Packet    |    网络层        |    提供路由器用来决定路径的逻辑寻址和转发        |    IP、IPX        |
 交换机    |    Frame    |    数据链路层|    将比特组合成字节进而组合成帧；用MAC地址访问介质；发现错误但不能纠正（直接丢弃）    | 802.3、802.2、HDLC                | 
 集线器    |    Bit        |    物理层        |    设备之间接受或发送比特流；说明电压、线速和线缆等
-</code></pre>
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+</code></pre>]]></content>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+    <summary type="html">
     
-      <a href="/2017/06/02/OhMyGod/" title="NieR:Automata" itemprop="url">NieR:Automata</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T21:48:26.231Z" itemprop="datePublished"> 发表于 2017-06-02</time>
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-Note-ISO-OSI&quot;&gt;&lt;a href=&quot;#title-Note-ISO-OSI&quot; class=&quot;headerlink&quot; title=&quot;title: Note ISO OSI&quot;&gt;&lt;/a&gt;title: Note ISO OSI&lt;/h2&gt;&lt;h
     
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>故事梗概:<br>来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。<br>人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部署了新的机器作战步兵：YoRHa。在这个被遗弃的荒原上，点燃了机械生命体与机器士兵之间的战争——一场揭开被遗忘的真相的战争……<br><img src="http://www.07073.com/uploads/170117/17598494_134746_1_lit.jpg" alt=""></p>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NieR:Automata</title>
+    <link href="http://kane1227.github.io/2017/06/02/OhMyGod/"/>
+    <id>http://kane1227.github.io/2017/06/02/OhMyGod/</id>
+    <published>2017-06-01T21:48:26.231Z</published>
+    <updated>2017-06-01T21:50:45.400Z</updated>
+    
+    <content type="html"><![CDATA[<p>故事梗概:<br>来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。<br>人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部署了新的机器作战步兵：YoRHa。在这个被遗弃的荒原上，点燃了机械生命体与机器士兵之间的战争——一场揭开被遗忘的真相的战争……<br><img src="http://www.07073.com/uploads/170117/17598494_134746_1_lit.jpg" alt=""></p>
 <p>[阅读原文][<a href="http://pc.07073.com/arc21469.html" target="_blank" rel="external">http://pc.07073.com/arc21469.html</a>]</p>
 <h3 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h3><ul>
 <li><strong>官方名称：YoRHa No. 2 Type B</strong><br><img src="http://www.07073.com/uploads/170117/17598494_134801_1_lit.jpg" alt="2B"><blockquote>
@@ -347,56 +216,25 @@
 <p>过去、仇恨的旋涡</p>
 </blockquote>
 <p>A型是YoRHa原型机器，主要擅长近战攻击。在2B型和9S型开发过程中，A型作为试验运行。性格上喜欢独立行事，话不多</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+]]></content>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+    <summary type="html">
     
-      <a href="/2017/06/01/NieR-Automata/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T14:59:38.662Z" itemprop="datePublished"> 发表于 2017-06-01</time>
+      &lt;p&gt;故事梗概:&lt;br&gt;来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。&lt;br&gt;人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部
     
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://kane1227.github.io/2017/06/01/NieR-Automata/"/>
+    <id>http://kane1227.github.io/2017/06/01/NieR-Automata/</id>
+    <published>2017-06-01T14:59:38.662Z</published>
+    <updated>2017-06-01T21:40:59.209Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
 <h2 id="title-NieR-Automata"><a href="#title-NieR-Automata" class="headerlink" title="title: NieR:Automata"></a>title: NieR:Automata</h2><p>故事梗概:<br>来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。<br>人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部署了新的机器作战步兵：YoRHa。在这个被遗弃的荒原上，点燃了机械生命体与机器士兵之间的战争——一场揭开被遗忘的真相的战争……<br><img src="http://www.07073.com/uploads/170117/17598494_134746_1_lit.jpg" alt=""></p>
 <p>[阅读原文][<a href="http://pc.07073.com/arc21469.html" target="_blank" rel="external">http://pc.07073.com/arc21469.html</a>]</p>
 <h3 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h3><ul>
@@ -421,108 +259,49 @@
 <p>过去、仇恨的旋涡</p>
 </blockquote>
 <p>A型是YoRHa原型机器，主要擅长近战攻击。在2B型和9S型开发过程中，A型作为试验运行。性格上喜欢独立行事，话不多</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+]]></content>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+    <summary type="html">
     
-      <a href="/2017/06/01/World/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T11:29:44.112Z" itemprop="datePublished"> 发表于 2017-06-01</time>
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-NieR-Automata&quot;&gt;&lt;a href=&quot;#title-NieR-Automata&quot; class=&quot;headerlink&quot; title=&quot;title: NieR:Automata&quot;&gt;&lt;/a&gt;title: NieR:Automata&lt;/h
     
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://kane1227.github.io/2017/06/01/World/"/>
+    <id>http://kane1227.github.io/2017/06/01/World/</id>
+    <published>2017-06-01T11:29:44.112Z</published>
+    <updated>2017-06-01T21:53:36.847Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
 <h2 id="title-One-World"><a href="#title-One-World" class="headerlink" title="title: One World"></a>title: One World</h2><hr>
 <p>layout: new<br>title: oneWorld!<br>date: 2017-06-01 19:29:44</p>
-<h2 id="tags-One"><a href="#tags-One" class="headerlink" title="tags: One  "></a>tags: One  </h2><h2 id="Hey-This-is-a-page-for-homework"><a href="#Hey-This-is-a-page-for-homework" class="headerlink" title="Hey! This is a page for homework!"></a>Hey! This is a page for homework!</h2><h3 id="组员有四个人"><a href="#组员有四个人" class="headerlink" title="组员有四个人"></a>组员有四个人</h3>
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
+<h2 id="tags-One"><a href="#tags-One" class="headerlink" title="tags: One  "></a>tags: One  </h2><h2 id="Hey-This-is-a-page-for-homework"><a href="#Hey-This-is-a-page-for-homework" class="headerlink" title="Hey! This is a page for homework!"></a>Hey! This is a page for homework!</h2><h3 id="组员有四个人"><a href="#组员有四个人" class="headerlink" title="组员有四个人"></a>组员有四个人</h3>]]></content>
     
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
+    <summary type="html">
     
-      <a href="/2017/05/27/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-05-26T16:41:58.770Z" itemprop="datePublished"> 发表于 2017-05-27</time>
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-One-World&quot;&gt;&lt;a href=&quot;#title-One-World&quot; class=&quot;headerlink&quot; title=&quot;title: One World&quot;&gt;&lt;/a&gt;title: One World&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;layout
     
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://kane1227.github.io/2017/05/27/hello-world/"/>
+    <id>http://kane1227.github.io/2017/05/27/hello-world/</id>
+    <published>2017-05-26T16:41:58.770Z</published>
+    <updated>2017-06-01T16:42:13.606Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
@@ -531,261 +310,15 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-
-</div>
-      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
-
-<div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
-<aside class="clearfix">
-
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
   
-<div class="github-card">
-<p class="asidetitle">Github 名片</p>
-<div class="github-card" data-github="kane1227" data-theme="medium"></div>
-<script type="text/javascript" src="//cdn.jsdelivr.net/github-cards/latest/widget.js" ></script>
-</div>
-
-
-
-  
-
-  
-
-  <div class="linkslist">
-  <p class="asidetitle">友情链接</p>
-    <ul>
-        
-          <li>
-            
-            	<a href="https://hexo.io/" target="_blank" title="Hexo">Hexo</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="https://github.com/kane1227" target="_blank" title="GitHub">GitHub</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="http://kane1227.cn" target="_blank" title="Kane&#39;s Blog">Kane&#39;s Blog</a>
-            
-          </li>
-        
-          <li>
-            
-            	<a href="https://coderq.com" target="_blank" title="一个面向程序员交流分享的新一代社区">码农圈</a>
-            
-          </li>
-        
-    </ul>
-</div>
-
-  <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
-</div>
-
-  <div class="weiboshow">
-  <p class="asidetitle">新浪微博
-  </p>
-  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=5&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=5030280139&verifier=1c11d41c&dpc=1">
-  </iframe>
-</div>
-
-
-</aside>
-</div>
-    </div>
-    <footer><div id="footer" >
-	
-	<div class="line">
-		<span></span>
-		<div class="author"></div>
-	</div>
-	
-	
-	<section class="info">
-		<p> Hello ,I&#39;m Kane Page in Google. <br/>
-			This is my blog,believe it or not.</p>
-	</section>
-	 
-	<div class="social-font" class="clearfix">
-		
-		<a href="http://weibo.com/5030280139" target="_blank" class="icon-weibo" title="微博"></a>
-		
-		
-		<a href="https://github.com/kane1227" target="_blank" class="icon-github" title="github"></a>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		<a href="mailto:qw1095779665@qq.com" target="_blank" class="icon-email" title="Email Me"></a>
-		
-	</div>
-	<script type="text/javascript">
-	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-	document.write(unescape("%3Cspan id='cnzz_stat_icon_1262078826'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262078826%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	
-			
-		
-
-		<p class="copyright">
-		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
-		
-		<a href="/about" target="_blank" title="Kane Lee">Kane Lee</a>
-		
-		
-		</p>
-</div>
-</footer>
-    <script src="/js/jquery-2.0.3.min.js"></script>
-<script src="/js/jquery.imagesloaded.min.js"></script>
-<script src="/js/gallery.js"></script>
-<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.navbar').click(function(){
-    $('header nav').toggleClass('shownav');
-  });
-  var myWidth = 0;
-  function getSize(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-  };
-  var m = $('#main'),
-      a = $('#asidepart'),
-      c = $('.closeaside'),
-      o = $('.openaside');
-  c.click(function(){
-    a.addClass('fadeOut').css('display', 'none');
-    o.css('display', 'block').addClass('fadeIn');
-    m.addClass('moveMain');
-  });
-  o.click(function(){
-    o.css('display', 'none').removeClass('beforeFadeIn');
-    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
-    m.removeClass('moveMain');
-  });
-  $(window).scroll(function(){
-    o.css("top",Math.max(80,260-$(this).scrollTop()));
-  });
-  
-  $(window).resize(function(){
-    getSize(); 
-    if (myWidth >= 1024) {
-      $('header nav').removeClass('shownav');
-    }else{
-      m.removeClass('moveMain');
-      a.css('display', 'block').removeClass('fadeOut');
-      o.css('display', 'none');
-        
-    }
-  });
-});
-</script>
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){ 
-  $('.article-content').each(function(i){
-    $(this).find('img').each(function(){
-      if ($(this).parent().hasClass('fancybox')) return;
-      var alt = this.alt;
-      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
-    });
-    $(this).find('.fancybox').each(function(){
-      $(this).attr('rel', 'article' + i);
-    });
-  });
-  if($.fancybox){
-    $('.fancybox').fancybox();
-  }
-}); 
-</script>
-
-
-
-<!-- Analytics Begin -->
-
-
-
-
-
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_undefined'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3Dundefined' type='text/javascript'%3E%3C/script%3E"));</script>
-
-<!-- Analytics End -->
-
-<!-- Totop Begin -->
-
-	<div id="totop">
-	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
-	</div>
-	<script src="/js/totop.js"></script>
-
-<!-- Totop End -->
-
-<!-- MathJax Begin -->
-<!-- mathjax config similar to math.stackexchange -->
-
-
-<!-- MathJax End -->
-
-<!-- Tiny_search Begin -->
-
-<!-- Tiny_search End -->
-
-  </body>
- </html>
+</feed>
