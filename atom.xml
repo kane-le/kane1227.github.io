@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kane1227.github.io/"/>
-  <updated>2017-06-01T21:50:45.400Z</updated>
+  <updated>2017-07-21T17:34:24.871Z</updated>
   <id>http://kane1227.github.io/</id>
   
   <author>
@@ -14,6 +14,156 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/"/>
+    <id>http://kane1227.github.io/2017/07/22/Note_ISO_OSI/</id>
+    <published>2017-07-21T16:51:29.656Z</published>
+    <updated>2017-07-21T17:34:24.871Z</updated>
+    
+    <content type="html"><![CDATA[<hr>
+<h2 id="title-Note-ISO-OSI"><a href="#title-Note-ISO-OSI" class="headerlink" title="title: Note ISO OSI"></a>title: Note ISO OSI</h2><h2 id="OSI分层模型"><a href="#OSI分层模型" class="headerlink" title="OSI分层模型"></a>OSI分层模型</h2><h4 id="tips"><a href="#tips" class="headerlink" title="tips:"></a>tips:</h4><ul>
+<li><p>ISO：国际标准化组织（International Organization for Standardization）</p>
+</li>
+<li><p>OSI：开放系统互联（Open System Interconnection）</p>
+</li>
+</ul>
+<h3 id="分层优点："><a href="#分层优点：" class="headerlink" title="分层优点："></a>分层优点：</h3><ol>
+<li><p>促进标准化工作,允许各个供应商进行开发.</p>
+</li>
+<li><p>各层间相互独立,把网络操作分成低复杂性单元.</p>
+</li>
+<li><p>灵活性好,某一层变化不会影响到别层，设计者可专心设计和开发模块功能.</p>
+</li>
+<li><p>各层间通过一个接口在相邻层上下通信</p>
+</li>
+</ol>
+<hr>
+<h3 id="应用层：提供用户接口"><a href="#应用层：提供用户接口" class="headerlink" title="应用层：提供用户接口"></a>应用层：提供用户接口</h3><p><em><strong>主要协议：FTP、HTTP</strong></em></p>
+<p>是普通用户直接接触的一层</p>
+<h3 id="表示层：对数据进行表示-amp-加密"><a href="#表示层：对数据进行表示-amp-加密" class="headerlink" title="表示层：对数据进行表示&amp;加密"></a>表示层：对数据进行表示&amp;加密</h3><p><em><strong>主要协议：ASCII、JPEG、EBCDIC（Extended Binary Coded Decimal Interchange Code</strong></em></p>
+<blockquote>
+<pre><code>EBCDIC（Extended Binary Coded Decimal Interchange Code）国际商用机器公司(IBM)于1963年-64年间推出的字符编码表
+</code></pre></blockquote>
+<h3 id="会话层：保证不同应用之间的数据区分，"><a href="#会话层：保证不同应用之间的数据区分，" class="headerlink" title="会话层：保证不同应用之间的数据区分，"></a>会话层：保证不同应用之间的数据区分，</h3><blockquote>
+<p>（区分对端到底发出的哪一块是FTP的数据流，哪一块是HTTP的数据流）</p>
+</blockquote>
+<h3 id="传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）"><a href="#传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）" class="headerlink" title="传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）"></a>传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）</h3><p><em><strong>代表协议：TCP、UDP</strong></em></p>
+<h3 id="网络层：提供路由器用来决定路径的逻辑寻址和转发"><a href="#网络层：提供路由器用来决定路径的逻辑寻址和转发" class="headerlink" title="网络层：提供路由器用来决定路径的逻辑寻址和转发"></a>网络层：提供路由器用来决定路径的逻辑寻址和转发</h3><p><em><strong>代表协议：IP、IPX</strong></em></p>
+<h3 id="数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正"><a href="#数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正" class="headerlink" title="数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正"></a>数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正</h3><blockquote>
+<p>MAC地址是由12个点分十六进制组成的全球唯一的物理地址</p>
+</blockquote>
+<p><em><strong>代表协议：802.3/802.2、HDLC</strong></em></p>
+<h3 id="物理层：设备之间接收或发送比特流；说明电压、线速和线缆等"><a href="#物理层：设备之间接收或发送比特流；说明电压、线速和线缆等" class="headerlink" title="物理层：设备之间接收或发送比特流；说明电压、线速和线缆等"></a>物理层：设备之间接收或发送比特流；说明电压、线速和线缆等</h3><hr>
+<h3 id="PDU（Protocol-Data-Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元"><a href="#PDU（Protocol-Data-Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元" class="headerlink" title="PDU（Protocol Data Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元"></a>PDU（Protocol Data Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元</h3><ul>
+<li>上层（应用层、表示层、会话层）使用 信息（Message）</li>
+<li>传输层：段（Segment）</li>
+<li>网络层：分组/包（Packet）</li>
+<li>数据链路层：帧（Frame）</li>
+<li>物理层：比特（Bit）</li>
+</ul>
+<hr>
+<h3 id="封装（Encapsulate-Encapsulation）-amp-解封装（"><a href="#封装（Encapsulate-Encapsulation）-amp-解封装（" class="headerlink" title="封装（Encapsulate/Encapsulation）&amp;解封装（"></a>封装（Encapsulate/Encapsulation）&amp;解封装（</h3><p>封装：数据要通过网络进行传输，要从高层一层一层的向下传送，绕过一个主机要传送数据到别的主机，先把数据装到一个特殊协议报头中，这个过程叫——封装</p>
+<p>封装分为切片和加控制信息</p>
+<pre><code>层            |        数据    
+------------|---------------------------
+应用层        |    
+表示层        |        上层数据
+会话层        |        
+------------|--------------------------
+传输层        |    【TCP头】+上层数据
+------------|---------------------------
+网络层        |    【IP头】+TCP+上层数据
+------------|--------------------------
+数据链路层|    【LLC头】+IP+TCP+上层数据+【FCS】
+------------|----------------------------------------
+物理层        |    【MAC头】+LLC+IP+TCP+上层数据+【FCS】
+            |    0101110101001000010
+</code></pre><pre><code>封装过程
+![封装过程](/封装过程.png)
+</code></pre><blockquote>
+<p>FCS：包含循环冗余校验值<br>收到值之后对端会进行计算，若值相同，则说明数据没有被篡改，说明数据可信任；<br>当值不同时，数据被丢弃。<br>数据链路层错误发现功能（只能发现但不能改正）</p>
+</blockquote>
+<p>数据传输过程<br><img src="/数据传输过程.png" alt="数据传输过程"></p>
+<p>解封装：上述的逆向过程<br><img src="/解封装.png" alt="解封装"></p>
+<hr>
+<h3 id="物理层设备"><a href="#物理层设备" class="headerlink" title="物理层设备"></a>物理层设备</h3><h4 id="集线器："><a href="#集线器：" class="headerlink" title="集线器："></a>集线器：</h4><ul>
+<li>所有设备在同一冲突域</li>
+<li>所有设备在同一广播域</li>
+<li>所有设备共享相同带宽</li>
+</ul>
+<h4 id="tips："><a href="#tips：" class="headerlink" title="tips："></a>tips：</h4><ul>
+<li>冲突（collision）：以太网中两个节点同时传输数据时，从两个设备发出的帧将会碰撞，在物理介质上项羽，彼此数据都会被破坏</li>
+<li>冲突域（collision domain）：一个支持共享介质的网段</li>
+<li>广播域（broadcast domain）：广播帧传输的网络范围，一般是路由器来设定边界（因为router不转发广播）</li>
+</ul>
+<h4 id="集线器：同一个冲突域"><a href="#集线器：同一个冲突域" class="headerlink" title="集线器：同一个冲突域"></a>集线器：同一个冲突域</h4><ul>
+<li>接入设备越多冲突几率越大</li>
+<li>使用CSMA/CD技术</li>
+</ul>
+<h4 id="CSMA-CD（载波侦听多路访问-冲突检测）（Carrier-Sense-Multiple-Access-Collision-Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA-CD机制就是用来解决这种冲突问题"><a href="#CSMA-CD（载波侦听多路访问-冲突检测）（Carrier-Sense-Multiple-Access-Collision-Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA-CD机制就是用来解决这种冲突问题" class="headerlink" title="CSMA/CD（载波侦听多路访问/冲突检测）（Carrier Sense Multiple Access/Collision Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA/CD机制就是用来解决这种冲突问题"></a>CSMA/CD（载波侦听多路访问/冲突检测）（Carrier Sense Multiple Access/Collision Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA/CD机制就是用来解决这种冲突问题</h4><h5 id="工作原理："><a href="#工作原理：" class="headerlink" title="工作原理："></a>工作原理：</h5><ul>
+<li>先听先发</li>
+<li>边听边发</li>
+<li>冲突停止</li>
+<li>随机重发</li>
+</ul>
+<blockquote>
+<p>当一个节点想在网络中发送数据时，它首先检查线路上是否有其他主机的信号在传送：如果有，说明其他主机在发送数据，自己则利用退避算法等一会再试图发送；如果线路上没有其他主机的信号，自己就将数据发送出去，同时，不停的监听线路，以确信其他主机没有发送数据，如果检测到有其他信号，自己就发送一个JAM阻塞信号，通知网段上的其他节点停止发送数据，这时，其他节点也必须采用退避算法等一会再试图发送。</p>
+</blockquote>
+<h5 id="重要特性"><a href="#重要特性" class="headerlink" title="重要特性"></a>重要特性</h5><ul>
+<li>不能进行全双工通信，只能使用双向交替通信（半双工通信）</li>
+<li>每个站发送数据之后的一小段时间内，存在遭遇碰撞的可能</li>
+<li>这种发送的不确定性使整个以太网平均通信量远小于以太网最高数据率</li>
+</ul>
+<h4 id="数据链路层"><a href="#数据链路层" class="headerlink" title="数据链路层"></a>数据链路层</h4><ul>
+<li>定义源和目标的物理地址</li>
+<li>与帧关联的高层协议（Service Access Point）</li>
+<li>网络拓扑</li>
+<li>帧顺序</li>
+<li>数据流控制</li>
+<li>有向或无向连接</li>
+</ul>
+<h5 id="MAC子层：负责MAC寻址和定义介质访问控制方法"><a href="#MAC子层：负责MAC寻址和定义介质访问控制方法" class="headerlink" title="MAC子层：负责MAC寻址和定义介质访问控制方法"></a>MAC子层：负责MAC寻址和定义介质访问控制方法</h5><p>MAC子层一般访问控制方式：</p>
+<ol>
+<li><p>争用式：冲突不可避免；CSMA/CD；FCFS（First Come First Service）</p>
+</li>
+<li><p>轮流式：访问时间可预见，不发生冲突；但要有Token令牌（令牌环网）</p>
+</li>
+</ol>
+<p>MAC子层协议：802.3、802.5、FDDI（Fiber Distributed Data Interface）</p>
+<blockquote>
+<p>该三种LAN技术不同在于帧结构和访问机制不同</p>
+</blockquote>
+<h5 id="LLC子层（Logical-Link-Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息"><a href="#LLC子层（Logical-Link-Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息" class="headerlink" title="LLC子层（Logical Link Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息"></a>LLC子层（Logical Link Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息</h5><p>LLC子层协议：802.2</p>
+<blockquote>
+<p>802.2协议只在LLC子层，为以太网和令牌环网提供通用功能</p>
+</blockquote>
+<ul>
+<li>数据链路层功能</li>
+</ul>
+<p><img src="/MAC子层802.3.png" alt=""></p>
+<p>目标地址</p>
+<h2 id="总结表"><a href="#总结表" class="headerlink" title="总结表"></a>总结表</h2><pre><code>设备    |    PDU    |        层        |        说明        |    代表协议        |        功能
+--------|------------|--------------|---------------------|-----------------|---------
+        |    Message|    应用层        |    用户接口层    |    FTP、HTTP    |  
+        |    Message|    表示层        |    对数据进行表示&amp;加密|    ASCII、JPEG    |
+        |    Message|    会话层        |    保证不同应用之间的数据区分|        |
+        |    Segment|    传输层        |    可靠或不可靠的数据传输；数据重传前的错误纠正|    TCP、UDP    |
+路由器    |    Packet    |    网络层        |    提供路由器用来决定路径的逻辑寻址和转发        |    IP、IPX        |
+交换机    |    Frame    |    数据链路层|    将比特组合成字节进而组合成帧；用MAC地址访问介质；发现错误但不能纠正（直接丢弃）    | 802.3、802.2、HDLC                | 
+集线器    |    Bit        |    物理层        |    设备之间接受或发送比特流；说明电压、线速和线缆等
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;title-Note-ISO-OSI&quot;&gt;&lt;a href=&quot;#title-Note-ISO-OSI&quot; class=&quot;headerlink&quot; title=&quot;title: Note ISO OSI&quot;&gt;&lt;/a&gt;title: Note ISO OSI&lt;/h2&gt;&lt;h
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>NieR:Automata</title>

@@ -11,12 +11,20 @@
     
 
     
-    <meta property="og:type" content="website">
+    <meta name="description" content="title: Note ISO OSIOSI分层模型tips: ISO：国际标准化组织（International Organization for Standardization）  OSI：开放系统互联（Open System Interconnection）   分层优点： 促进标准化工作,允许各个供应商进行开发.  各层间相互独立,把网络操作分成低复杂性单元.  灵活性好,某一层变化不会">
+<meta property="og:type" content="article">
 <meta property="og:title" content="KANE blog">
-<meta property="og:url" content="http://kane1227.github.io/index.html">
+<meta property="og:url" content="http://kane1227.github.io/2017/07/22/Note_ISO_OSI/index.html">
 <meta property="og:site_name" content="KANE blog">
+<meta property="og:description" content="title: Note ISO OSIOSI分层模型tips: ISO：国际标准化组织（International Organization for Standardization）  OSI：开放系统互联（Open System Interconnection）   分层优点： 促进标准化工作,允许各个供应商进行开发.  各层间相互独立,把网络操作分成低复杂性单元.  灵活性好,某一层变化不会">
+<meta property="og:image" content="http://kane1227.github.io/数据传输过程.png">
+<meta property="og:image" content="http://kane1227.github.io/解封装.png">
+<meta property="og:image" content="http://kane1227.github.io/MAC子层802.3.png">
+<meta property="og:updated_time" content="2017-07-21T17:34:24.871Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="KANE blog">
+<meta name="twitter:description" content="title: Note ISO OSIOSI分层模型tips: ISO：国际标准化组织（International Organization for Standardization）  OSI：开放系统互联（Open System Interconnection）   分层优点： 促进标准化工作,允许各个供应商进行开发.  各层间相互独立,把网络操作分成低复杂性单元.  灵活性好,某一层变化不会">
+<meta name="twitter:image" content="http://kane1227.github.io/数据传输过程.png">
 
     
     <link rel="alternative" href="/atom.xml" title="KANE blog" type="application/atom+xml">
@@ -72,12 +80,10 @@
 </div>
     </header>
     <div id="container">
-      <div id="main">
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
   <h1 itemprop="name">
     
       <a href="/2017/07/22/Note_ISO_OSI/" title="" itemprop="url"></a>
@@ -91,9 +97,16 @@
     
   </p>
 </header>
-    <div class="article-content">
-        
-        <hr>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-Note-ISO-OSI"><span class="toc-number">1.</span> <span class="toc-text">title: Note ISO OSI</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OSI分层模型"><span class="toc-number">2.</span> <span class="toc-text">OSI分层模型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#tips"><span class="toc-number">2.0.1.</span> <span class="toc-text">tips:</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分层优点："><span class="toc-number">2.1.</span> <span class="toc-text">分层优点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#应用层：提供用户接口"><span class="toc-number">2.2.</span> <span class="toc-text">应用层：提供用户接口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#表示层：对数据进行表示-amp-加密"><span class="toc-number">2.3.</span> <span class="toc-text">表示层：对数据进行表示&加密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#会话层：保证不同应用之间的数据区分，"><span class="toc-number">2.4.</span> <span class="toc-text">会话层：保证不同应用之间的数据区分，</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）"><span class="toc-number">2.5.</span> <span class="toc-text">传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网络层：提供路由器用来决定路径的逻辑寻址和转发"><span class="toc-number">2.6.</span> <span class="toc-text">网络层：提供路由器用来决定路径的逻辑寻址和转发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正"><span class="toc-number">2.7.</span> <span class="toc-text">数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层：设备之间接收或发送比特流；说明电压、线速和线缆等"><span class="toc-number">2.8.</span> <span class="toc-text">物理层：设备之间接收或发送比特流；说明电压、线速和线缆等</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PDU（Protocol-Data-Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元"><span class="toc-number">2.9.</span> <span class="toc-text">PDU（Protocol Data Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#封装（Encapsulate-Encapsulation）-amp-解封装（"><span class="toc-number">2.10.</span> <span class="toc-text">封装（Encapsulate/Encapsulation）&解封装（</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层设备"><span class="toc-number">2.11.</span> <span class="toc-text">物理层设备</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#集线器："><span class="toc-number">2.11.1.</span> <span class="toc-text">集线器：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#tips："><span class="toc-number">2.11.2.</span> <span class="toc-text">tips：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#集线器：同一个冲突域"><span class="toc-number">2.11.3.</span> <span class="toc-text">集线器：同一个冲突域</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CSMA-CD（载波侦听多路访问-冲突检测）（Carrier-Sense-Multiple-Access-Collision-Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA-CD机制就是用来解决这种冲突问题"><span class="toc-number">2.11.4.</span> <span class="toc-text">CSMA/CD（载波侦听多路访问/冲突检测）（Carrier Sense Multiple Access/Collision Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA/CD机制就是用来解决这种冲突问题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#工作原理："><span class="toc-number">2.11.4.1.</span> <span class="toc-text">工作原理：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#重要特性"><span class="toc-number">2.11.4.2.</span> <span class="toc-text">重要特性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据链路层"><span class="toc-number">2.11.5.</span> <span class="toc-text">数据链路层</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#MAC子层：负责MAC寻址和定义介质访问控制方法"><span class="toc-number">2.11.5.1.</span> <span class="toc-text">MAC子层：负责MAC寻址和定义介质访问控制方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#LLC子层（Logical-Link-Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息"><span class="toc-number">2.11.5.2.</span> <span class="toc-text">LLC子层（Logical Link Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#总结表"><span class="toc-number">3.</span> <span class="toc-text">总结表</span></a></li></ol>
+		
+		</div>
+		
+		<hr>
 <h2 id="title-Note-ISO-OSI"><a href="#title-Note-ISO-OSI" class="headerlink" title="title: Note ISO OSI"></a>title: Note ISO OSI</h2><h2 id="OSI分层模型"><a href="#OSI分层模型" class="headerlink" title="OSI分层模型"></a>OSI分层模型</h2><h4 id="tips"><a href="#tips" class="headerlink" title="tips:"></a>tips:</h4><ul>
 <li><p>ISO：国际标准化组织（International Organization for Standardization）</p>
 </li>
@@ -224,14 +237,9 @@
 路由器    |    Packet    |    网络层        |    提供路由器用来决定路径的逻辑寻址和转发        |    IP、IPX        |
 交换机    |    Frame    |    数据链路层|    将比特组合成字节进而组合成帧；用MAC地址访问介质；发现错误但不能纠正（直接丢弃）    | 802.3、802.2、HDLC                | 
 集线器    |    Bit        |    物理层        |    设备之间接受或发送比特流；说明电压、线速和线缆等
-</code></pre>
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
+</code></pre>  
+	</div>
+		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
 
@@ -239,281 +247,66 @@
 
 
 
-
-<div class="comments-count">
+	<div class="article-share" id="share">
 	
+	<div class="share-jiathis">
+	  
+<div class="jiathis_style_24x24">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a class="jiathis_button_googleplus"></a>
+	<a class="jiathis_button_douban"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	<a class="jiathis_counter_style"></a>
 </div>
+<script type="text/javascript" >
+    var jiathis_config={
+    data_track_clickback:true,
+    sm:"copy,renren,cqq",
+    pic:"",
+    summary:"",
+     ralateuid:{"tsina":"5030280139"},hideMore:false}
+    
+  </script> 
+<script type="text/javascript" src="//v3.jiathis.com/code/jia.js?uid=2135416
+2135416" charset="utf-8"></script>      
+
+	 </div>
+	
+	</div>
+
 
 </footer>
 
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/06/02/OhMyGod/" title="NieR:Automata" itemprop="url">NieR:Automata</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T21:48:26.231Z" itemprop="datePublished"> 发表于 2017-06-02</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>故事梗概:<br>来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。<br>人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部署了新的机器作战步兵：YoRHa。在这个被遗弃的荒原上，点燃了机械生命体与机器士兵之间的战争——一场揭开被遗忘的真相的战争……<br><img src="http://www.07073.com/uploads/170117/17598494_134746_1_lit.jpg" alt=""></p>
-<p>[阅读原文][<a href="http://pc.07073.com/arc21469.html" target="_blank" rel="external">http://pc.07073.com/arc21469.html</a>]</p>
-<h3 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h3><ul>
-<li><strong>官方名称：YoRHa No. 2 Type B</strong><br><img src="http://www.07073.com/uploads/170117/17598494_134801_1_lit.jpg" alt="2B"><blockquote>
-<p>一把剑、一颗平静的心</p>
-</blockquote>
-</li>
-</ul>
-<p>是自动作战步兵YoRHa中的一个多用途战斗机器人。装备有一把剑作为近战武器，并可以使用“Pod”作为辅助远程攻击。所有YoRHa成员都没有名字，仅以代号相称。虽然他们被禁止表达情感，但是每个机器人都有着自己鲜明的个性，比如2B就显得沉着冷静，喜欢收集</p>
-<ul>
-<li><strong>官方名称：YoRHa No. 9 Type S</strong><br><img src="http://www.07073.com/uploads/170117/17598494_134814_1_lit.jpg" alt=""><blockquote>
-<p>灵魂、转瞬即逝的善良</p>
-</blockquote>
-</li>
-</ul>
-<p>9S型机器人主要职责是作为一名黑客，来研究作战任务，他擅长收集信息，同样拥有攻击能力。在YoRHa中，9S表达情感的方式较多，有一个善良的心。</p>
-<ul>
-<li><strong>官方名称：YoRHa Type A No. 2</strong></li>
-</ul>
-<p><img src="http://www.07073.com/uploads/170117/17598494_134830_1_lit.jpg" alt=""></p>
-<blockquote>
-<p>过去、仇恨的旋涡</p>
-</blockquote>
-<p>A型是YoRHa原型机器，主要擅长近战攻击。在2B型和9S型开发过程中，A型作为试验运行。性格上喜欢独立行事，话不多</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
+   	       
+	</article>
 	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2017/06/02/OhMyGod/"  title="NieR:Automata">
+ <strong>下一篇：</strong><br/> 
+ <span>NieR:Automata
+</span>
+</a>
 </div>
 
-</footer>
+</nav>
 
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/06/01/NieR-Automata/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T14:59:38.662Z" itemprop="datePublished"> 发表于 2017-06-01</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
-<h2 id="title-NieR-Automata"><a href="#title-NieR-Automata" class="headerlink" title="title: NieR:Automata"></a>title: NieR:Automata</h2><p>故事梗概:<br>来自另一个世界的侵略者在没有任何征兆的情况下，发动了对地球的攻击：这是一种全新的威胁——被称为“机械生命体”的武器。面对这种不可战胜的威胁，人类被迫逃离了地球，来到了月球避难。<br>人类理事会组织起了及其士兵，来试图收复地球。为了打破战争的僵局，抵抗军部署了新的机器作战步兵：YoRHa。在这个被遗弃的荒原上，点燃了机械生命体与机器士兵之间的战争——一场揭开被遗忘的真相的战争……<br><img src="http://www.07073.com/uploads/170117/17598494_134746_1_lit.jpg" alt=""></p>
-<p>[阅读原文][<a href="http://pc.07073.com/arc21469.html" target="_blank" rel="external">http://pc.07073.com/arc21469.html</a>]</p>
-<h3 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h3><ul>
-<li><strong>官方名称：YoRHa No. 2 Type B</strong><br><img src="http://www.07073.com/uploads/170117/17598494_134801_1_lit.jpg" alt="2B"><blockquote>
-<p>一把剑、一颗平静的心</p>
-</blockquote>
-</li>
-</ul>
-<p>是自动作战步兵YoRHa中的一个多用途战斗机器人。装备有一把剑作为近战武器，并可以使用“Pod”作为辅助远程攻击。所有YoRHa成员都没有名字，仅以代号相称。虽然他们被禁止表达情感，但是每个机器人都有着自己鲜明的个性，比如2B就显得沉着冷静，喜欢收集</p>
-<ul>
-<li><strong>官方名称：YoRHa No. 9 Type S</strong><br><img src="http://www.07073.com/uploads/170117/17598494_134814_1_lit.jpg" alt=""><blockquote>
-<p>灵魂、转瞬即逝的善良</p>
-</blockquote>
-</li>
-</ul>
-<p>9S型机器人主要职责是作为一名黑客，来研究作战任务，他擅长收集信息，同样拥有攻击能力。在YoRHa中，9S表达情感的方式较多，有一个善良的心。</p>
-<ul>
-<li><strong>官方名称：YoRHa Type A No. 2</strong></li>
-</ul>
-<p><img src="http://www.07073.com/uploads/170117/17598494_134830_1_lit.jpg" alt=""></p>
-<blockquote>
-<p>过去、仇恨的旋涡</p>
-</blockquote>
-<p>A型是YoRHa原型机器，主要擅长近战攻击。在2B型和9S型开发过程中，A型作为试验运行。性格上喜欢独立行事，话不多</p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
 	
-</div>
 
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/06/01/World/" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-06-01T11:29:44.112Z" itemprop="datePublished"> 发表于 2017-06-01</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <hr>
-<h2 id="title-One-World"><a href="#title-One-World" class="headerlink" title="title: One World"></a>title: One World</h2><hr>
-<p>layout: new<br>title: oneWorld!<br>date: 2017-06-01 19:29:44</p>
-<h2 id="tags-One"><a href="#tags-One" class="headerlink" title="tags: One  "></a>tags: One  </h2><h2 id="Hey-This-is-a-page-for-homework"><a href="#Hey-This-is-a-page-for-homework" class="headerlink" title="Hey! This is a page for homework!"></a>Hey! This is a page for homework!</h2><h3 id="组员有四个人"><a href="#组员有四个人" class="headerlink" title="组员有四个人"></a>组员有四个人</h3>
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-   
-    
-    <article class="post-expand post" itemprop="articleBody"> 
-        <header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/2017/05/27/hello-world/" title="Hello World" itemprop="url">Hello World</a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="Kane Lee" target="_blank" itemprop="author">Kane Lee</a>
-		
-  <p class="article-time">
-    <time datetime="2017-05-26T16:41:58.770Z" itemprop="datePublished"> 发表于 2017-05-27</time>
-    
-  </p>
-</header>
-    <div class="article-content">
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-        
-        
-        <p class="article-more-link">
-          
-       </p>
-    </div>
-    <footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
-</div>
-
-
-
-
-<div class="comments-count">
-	
-</div>
-
-</footer>
-
-
-    </article>
-
-
-
-
-
-
-
-</div>
+</div>  
       <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#title-Note-ISO-OSI"><span class="toc-number">1.</span> <span class="toc-text">title: Note ISO OSI</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#OSI分层模型"><span class="toc-number">2.</span> <span class="toc-text">OSI分层模型</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#tips"><span class="toc-number">2.0.1.</span> <span class="toc-text">tips:</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#分层优点："><span class="toc-number">2.1.</span> <span class="toc-text">分层优点：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#应用层：提供用户接口"><span class="toc-number">2.2.</span> <span class="toc-text">应用层：提供用户接口</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#表示层：对数据进行表示-amp-加密"><span class="toc-number">2.3.</span> <span class="toc-text">表示层：对数据进行表示&加密</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#会话层：保证不同应用之间的数据区分，"><span class="toc-number">2.4.</span> <span class="toc-text">会话层：保证不同应用之间的数据区分，</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）"><span class="toc-number">2.5.</span> <span class="toc-text">传输层：可靠或不可靠的数据传输；数据重传前的错误纠正（TCP）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网络层：提供路由器用来决定路径的逻辑寻址和转发"><span class="toc-number">2.6.</span> <span class="toc-text">网络层：提供路由器用来决定路径的逻辑寻址和转发</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正"><span class="toc-number">2.7.</span> <span class="toc-text">数据链路层：将比特组合成字节进而组合成帧；用MAC地址访问介质；错误发现但不能纠正</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层：设备之间接收或发送比特流；说明电压、线速和线缆等"><span class="toc-number">2.8.</span> <span class="toc-text">物理层：设备之间接收或发送比特流；说明电压、线速和线缆等</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PDU（Protocol-Data-Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元"><span class="toc-number">2.9.</span> <span class="toc-text">PDU（Protocol Data Unit）：每一层使用自己曾的协议和别的系统的对应层相互通信，协议层的协议在对等层之间交换的信息叫协议数据单元</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#封装（Encapsulate-Encapsulation）-amp-解封装（"><span class="toc-number">2.10.</span> <span class="toc-text">封装（Encapsulate/Encapsulation）&解封装（</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#物理层设备"><span class="toc-number">2.11.</span> <span class="toc-text">物理层设备</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#集线器："><span class="toc-number">2.11.1.</span> <span class="toc-text">集线器：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#tips："><span class="toc-number">2.11.2.</span> <span class="toc-text">tips：</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#集线器：同一个冲突域"><span class="toc-number">2.11.3.</span> <span class="toc-text">集线器：同一个冲突域</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#CSMA-CD（载波侦听多路访问-冲突检测）（Carrier-Sense-Multiple-Access-Collision-Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA-CD机制就是用来解决这种冲突问题"><span class="toc-number">2.11.4.</span> <span class="toc-text">CSMA/CD（载波侦听多路访问/冲突检测）（Carrier Sense Multiple Access/Collision Detect）：一种介质介质访问控制方法，当在同一个共享网络中的不同节点同时传送数据包时，不可避免的会产生冲突，而CSMA/CD机制就是用来解决这种冲突问题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#工作原理："><span class="toc-number">2.11.4.1.</span> <span class="toc-text">工作原理：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#重要特性"><span class="toc-number">2.11.4.2.</span> <span class="toc-text">重要特性</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据链路层"><span class="toc-number">2.11.5.</span> <span class="toc-text">数据链路层</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#MAC子层：负责MAC寻址和定义介质访问控制方法"><span class="toc-number">2.11.5.1.</span> <span class="toc-text">MAC子层：负责MAC寻址和定义介质访问控制方法</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#LLC子层（Logical-Link-Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息"><span class="toc-number">2.11.5.2.</span> <span class="toc-text">LLC子层（Logical Link Control）：为上层协议提供SAP服务访问点，并为数据加上控制信息</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#总结表"><span class="toc-number">3.</span> <span class="toc-text">总结表</span></a></li></ol>
+ 
+  </div>
 
 <div id="asidepart">
 <div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
@@ -670,8 +463,36 @@ $(document).ready(function(){
       m.removeClass('moveMain');
       a.css('display', 'block').removeClass('fadeOut');
       o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
         
     }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
   });
 });
 </script>
@@ -738,4 +559,4 @@ $(document).ready(function(){
 <!-- Tiny_search End -->
 
   </body>
- </html>
+</html>
